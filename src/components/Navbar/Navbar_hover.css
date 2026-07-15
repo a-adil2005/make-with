@@ -1,0 +1,12 @@
+.nav-logo a:hover {
+  color: var(--primary);
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.login-btn:hover {
+  color: var(--white);
+}

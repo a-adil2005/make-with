@@ -1,0 +1,46 @@
+.reels-section {
+    padding: 80px 5%;
+}
+
+.reels-grid {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.reel-card {
+    min-width: 250px;
+    background: var(--secondary);
+    padding: 15px;
+    border-radius: var(--border-radius);
+}
+
+.reel-video-placeholder {
+    height: 400px;
+    background: #1f2937;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.reel-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-bg{
+    background-color: transparent;
+    color: var(--primary);
+    border: none;
+}
+.shop-product {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    margin-top: 10px;
+}

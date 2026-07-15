@@ -1,0 +1,77 @@
+header {
+  margin-top: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  position: fixed;
+  justify-content: center;
+  width: 95vw;
+  z-index: 50;
+  border-bottom: 2px solid #374151;
+  border-radius: var(--border-radius);
+  background: transparent;
+  backdrop-filter: blur(15px) saturate(150%);
+}
+
+.nav-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--white);
+  padding-left: 1rem;
+}
+
+.nav-logo a {
+  color: var(--text);
+  /* transition: var(--transition); */
+  text-decoration: none;
+}
+
+.nav-logo a img{
+  width: 7vh;
+  background: #374151;
+  margin-bottom: 15px;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  font-size: 18px;
+  color: var(--text);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.nav-cta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.waitlist {
+  font-size: 10px;
+}

@@ -1,0 +1,46 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 120px 5% 80px 5%; Top, Right, Bottom, Left */
+  padding-top: 20vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 40px;
+  /* width: 100%; */
+}
+
+.hero-content {
+  flex: 1;
+  color: var(--white); /* Force text to white for visibility */
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  line-height: 1.1; /* Fixes the overlapping lines */
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.hero-description {
+  color: var(--text); /* Use your light grey variable */
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.6; /* Adds proper space between lines */
+}
+
+.hero-image img {
+  width: 15vw;
+  background: #374151;
+  margin-bottom: 15px;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.hero-image img:hover {
+  background: var(--card-hover);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}

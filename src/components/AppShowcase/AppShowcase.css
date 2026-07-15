@@ -1,0 +1,35 @@
+.app-showcase-section {
+    padding: 5vh 5%;
+    background-color: var(--secondary);
+}
+
+.app-showcase-container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.showcase-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.phone-mockup {
+    width: 200px;
+    height: 400px;
+    background: #374151;
+    border: 8px solid #1f2937;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+}
+
+.screen-placeholder {
+    font-size: 0.9rem;
+    font-weight: bold;
+}

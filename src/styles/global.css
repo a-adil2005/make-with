@@ -1,0 +1,57 @@
+/* Add this to src/styles/global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--background); /* Now it will use the variable */
+  color: var(--text);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+.btn {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.6rem 1.25rem;
+  border: 2px solid var(--primary); /* Maintain consistent border */
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  text-decoration: none;
+  display: inline-block; /* Ensure padding/borders apply correctly */
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: transparent;
+  color: var(--primary); /* Optional: make text match primary color */
+  border-bottom: 2px solid var(--primary); /* Keep the same border thickness */
+}
+
+.title {
+  color: var(--white);
+}
+
+/* Global Card */
+.card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--card-border);
+  border-bottom: 2px solid var(--card-border-bottom);
+  transition: var(--transition);
+}
+
+/* Global Card Hover CSS Properties  */
+
+.card:hover {
+  background: var(--card-hover);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.txtsiz {
+  font-size: 15px;
+}

@@ -1,0 +1,45 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--background);
+    position: relative; /* Needed for absolute positioning of close button */
+}
+
+.login-card {
+    padding: 40px;
+    background: rgba(31, 41, 55, 0.7); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    width: 300px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-form input {
+    padding: 12px;
+    border-radius: var(--border-radius);
+    border: 1px solid #374151;
+    background: #111827;
+    color: var(--white);
+}
+
+.waitlist{
+    font-size: 15px;
+    font-weight: bold;
+}

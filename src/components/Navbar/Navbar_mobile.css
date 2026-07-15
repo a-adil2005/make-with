@@ -1,0 +1,6 @@
+/* Mobile Responsiveness */
+@media (max-width: 1000px) {
+  .nav-links {
+    display: none;
+  }
+}

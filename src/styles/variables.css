@@ -1,0 +1,28 @@
+/* src/styles/variables.css */
+:root {
+  --primary: #ff3b30;
+  --transition: 0.3s ease;
+  --border-radius: 5vh;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --background: #0f0f17;
+  --text: #d1d5db;
+  --white: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-hover: rgba(255, 255, 255, 0.1);
+  --card-border: transparent;
+  --card-border-bottom: #374151;
+}
+
+/* Light Theme */
+.light-theme {
+  --background: #ffffff;
+  --text: #374151;
+  --white: #111827;
+  --card-bg: #ffffff;
+  --card-hover: #f3f4f6;
+  --card-border: #d1d5db;
+  --card-border-bottom: transparent;
+}
