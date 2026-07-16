@@ -9,7 +9,8 @@
 
 .login-card {
     padding: 40px;
-    background: rgba(31, 41, 55, 0.7); 
+    background-color: #111827;
+    /* background: rgba(31, 41, 55, 0.7);  */
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--border-radius);
     width: 300px;
@@ -34,12 +35,13 @@
 .login-form input {
     padding: 12px;
     border-radius: var(--border-radius);
-    border: 1px solid #374151;
-    background: #111827;
+    border: 2px solid #374151;
+    background: var(--background);
     color: var(--white);
 }
 
-.waitlist{
+.sign-btn{
+    cursor: not-allowed;
     font-size: 15px;
     font-weight: bold;
 }
