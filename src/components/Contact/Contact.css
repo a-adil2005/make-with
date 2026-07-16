@@ -25,10 +25,7 @@
 }
 
 .submit {
+    cursor: not-allowed;
     padding: 15px;
-    background: var(--primary);
-    color: white;
-    border: none;
-    border-radius: var(--border-radius);
     font-weight: bold;
 }

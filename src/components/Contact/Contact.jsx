@@ -12,7 +12,11 @@ function Contact() {
           <input type="text" placeholder="Name" required />
           <input type="email" placeholder="Email" required />
           <textarea placeholder="Message" rows="5" required></textarea>
-          <button type="submit" className="submit btn">Send Message</button>
+          <button type="submit" className="btn">
+            <div className="submit">
+              Send Message
+              </div>
+              </button>
         </form>
       </div>
     </section>
