@@ -5,8 +5,6 @@ import "./Navbar_hover.css";
 import "./Navbar_mobile.css";
 import logo from "../../assets/icons/logo.jpg";
 import { Link } from "react-router-dom";
-import { Link as RouterLink } from "react-router-dom"; // For page navigation
-import { Link as ScrollLink } from "react-scroll";     // For in-page scrolling
 
 function Navbar({ toggleTheme, isDark }) {
   return (
