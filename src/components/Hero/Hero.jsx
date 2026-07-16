@@ -2,6 +2,8 @@ import React from "react";
 import "./Hero.css";
 import "./Hero_mobile.css";
 import logo from "../../assets/icons/logo.jpg";
+import { Link as RouterLink } from "react-router-dom"; // For page navigation
+import { Link as ScrollLink } from "react-scroll"; // For in-page scrolling
 
 function Hero() {
   return (
@@ -13,9 +15,9 @@ function Hero() {
           recommendations.
         </p>
         <div>
-          <a href="#down" className="txtsiz btn">
+          <ScrollLink to="down" className="txtsiz btn" smooth={true} duration={1000}>
             Download App
-          </a>
+          </ScrollLink>
         </div>
       </div>
       <div className="hero-image">

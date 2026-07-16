@@ -62,6 +62,7 @@ header {
 }
 
 .login-btn {
+  cursor: pointer;
   background: transparent;
   border: none;
   color: var(--text);
@@ -70,4 +71,9 @@ header {
 
 .wait {
   font-size: 15px;
+  cursor: wait;
+}
+
+.theme-toggle{
+  cursor: pointer;
 }
