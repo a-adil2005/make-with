@@ -8,7 +8,7 @@ function AppShowcase() {
     <section id='app' className="app-showcase-section">
       <div className="app-showcase-container">
         <h1 className='title'>App Showcase</h1>
-        <div className="showcase-grid">
+        <div className="showcase">
           {screens.map((screen, index) => (
             <div key={index} className="card phone-mockup">
               <div className="screen-placeholder">{screen}</div>

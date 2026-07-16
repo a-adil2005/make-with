@@ -3,4 +3,7 @@
   .nav-links {
     display: none;
   }
+  .wait {
+    font-size: 8px;
+  }
 }

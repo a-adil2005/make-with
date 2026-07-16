@@ -8,7 +8,7 @@ function Features() {
     <section id="features" className="features-section">
       <div className="features-container">
         <h1 className='features-title'>Why Choose MakeWith?</h1>
-        <div className="features-grid">
+        <div className="grid">
           {featuresData.map((feature, index) => (
             <FeatureCard key={index} title={feature.title} desc={feature.desc} />
           ))}

@@ -8,7 +8,7 @@ function Testimonials() {
     <section id='testmonials' className="testimonials-section">
       <div className="testimonials-container">
         <h1 className='title'>What People Say</h1>
-        <div className="testimonials-grid">
+        <div className="grid">
           {testimonials.map((item, index) => (
             <TestimonialCard key={index} {...item} />
           ))}

@@ -8,7 +8,7 @@ function HowItWorks() {
     <section id="how-it-works" className="how-it-works-section">
       <div className="how-it-works-container">
         <h1 className="how-it-works-title">How It Works</h1>
-        <div className="steps-grid">
+        <div className="grid">
           {steps.map((step) => (
             <StepCard key={step.id} id={step.id} title={step.title} desc={step.desc} />
           ))}

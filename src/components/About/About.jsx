@@ -11,7 +11,7 @@ function About() {
           brands, creators, and shoppers.
         </p>
         
-        <div className="about-grid">
+        <div className="grid">
           <div className="card">
             <h3>Our Vision</h3>
             <p>To redefine the social shopping experience through AI-powered personalization.</p>

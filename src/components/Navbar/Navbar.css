@@ -17,9 +17,6 @@ header {
 }
 
 .nav-container {
-  max-width: var(--container-width);
-  margin: 0 auto;
-  padding: 1rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,33 +31,32 @@ header {
 
 .nav-logo a {
   color: var(--text);
-  /* transition: var(--transition); */
   text-decoration: none;
 }
 
-.nav-logo a img{
-  width: 7vh;
+.nav-logo a img {
+  width: 4vw;
   background: #374151;
-  margin-bottom: 15px;
   border-radius: var(--border-radius);
   transition: var(--transition);
 }
 
 .nav-links {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-links a {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--text);
   transition: var(--transition);
   text-decoration: none;
 }
 
 .nav-cta {
+  padding: 1rem;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
 }
@@ -72,6 +68,6 @@ header {
   transition: var(--transition);
 }
 
-.waitlist {
-  font-size: 10px;
+.wait {
+  font-size: 15px;
 }

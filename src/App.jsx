@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom"; // Added Navigate
 import Landing from "./pages/Landing";
 import Login from "./components/Login/Login";
 
@@ -8,7 +8,7 @@ function App() {
   const toggleTheme = () => setIsDark(!isDark);
 
   useEffect(() => {
-    document.body.className = isDark ? 'dark-theme' : 'light-theme';
+    document.body.className = isDark ? "dark-theme" : "light-theme";
   }, [isDark]);
 
   return (
@@ -16,7 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing toggleTheme={toggleTheme} isDark={isDark} />} />
         <Route path="/login" element={<Login />} />
-      </Routes>@
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </Router>
   );
 }

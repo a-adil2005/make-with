@@ -15,7 +15,7 @@ body {
 .btn {
   background: var(--primary);
   color: var(--white);
-  padding: 0.6rem 1.25rem;
+  padding: 5px 1.25rem;
   border: 2px solid var(--primary); /* Maintain consistent border */
   border-radius: var(--border-radius);
   transition: var(--transition);
@@ -34,6 +34,17 @@ body {
   color: var(--white);
 }
 
+.txtsiz {
+  font-size: 15px;
+}
+
+.grid {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
 /* Global Card */
 .card {
   background: var(--card-bg);
@@ -45,13 +56,8 @@ body {
 }
 
 /* Global Card Hover CSS Properties  */
-
 .card:hover {
   background: var(--card-hover);
   transform: translateY(-6px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-}
-
-.txtsiz {
-  font-size: 15px;
 }

@@ -8,7 +8,7 @@ function MarketplacePreview() {
     <section id="marketplace" className="marketplace-section">
       <div className="marketplace-container">
         <h1 className='title'>Marketplace Preview</h1>
-        <div className="marketplace-grid">
+        <div className="grid">
           {products.map((product) => (
             <ProductCard 
               key={product.id} 
