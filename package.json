@@ -2,13 +2,15 @@
   "name": "ai-study-companion",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/a-adil2005/ai-study-companion",
+  "homepage": "https://a-adil2005.github.io/ai-study-companion",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-detailed-eslint-disable",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@google/genai": "^2.24.0",
